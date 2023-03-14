@@ -1,12 +1,13 @@
 # pycti_search_report_by_ioc
 
+
 opencti Version: 5.3.17
 
-總之就是 pycti 沒有這個 StixCoreObjectOrStixCoreRelationshipLastReportsQuery，
-但是網頁上的方法有。
-當時的 pycti 文件是空的，
-希望能幫助到也想使用 opencti 的人。
+In short, the StixCoreObjectOrStixCoreRelationshipLastReportsQuery is not available in Pycti, although it is documented on the website. At the time of writing, the Pycti documentation was empty, so I hope this can help those who want to use OpenCTI.
 
-## 我受過的苦，我來扛就好
+## I'll shoulder the burden of my suffering 
 
-如果可以請到 https://sectools.tw 參觀吧...
+
+If possible, please visit https://sectools.tw ...
+
+一袋米要扛幾樓...

@@ -21,7 +21,6 @@ If possible, please visit https://sectools.tw ...
 
 Just change the values to the ioc that you want to search
 
-<code>
-  opencti_api_client.query(StixCoreObjectOrStixCoreRelationshipLastReportsQuer,variables={"first":8,"orderBy":"published","orderMode":"desc","filters":[{"key":"objectContains","values":["3e35d767-d8e8-4bde-beb7-3c2e1ba7687b"]}]})
-
-</code>
+```
+opencti_api_client.query(StixCoreObjectOrStixCoreRelationshipLastReportsQuer,variables={"first":8,"orderBy":"published","orderMode":"desc","filters":[{"key":"objectContains","values":["3e35d767-d8e8-4bde-beb7-3c2e1ba7687b"]}]})
+```

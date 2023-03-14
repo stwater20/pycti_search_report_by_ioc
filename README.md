@@ -2,7 +2,7 @@
 
 opencti Version: 5.3.17
 
-總之就是 pycti 沒有這個 function，
+總之就是 pycti 沒有這個 StixCoreObjectOrStixCoreRelationshipLastReportsQuery，
 但是網頁上的方法有。
 當時的 pycti 文件是空的，
 希望能幫助到也想使用 opencti 的人。

@@ -739,4 +739,5 @@ fragment SimpleStixObjectOrStixRelationshipStixCoreRelationshipsLines_data_3Yede
 }
 '''
 ## just change i value
-results = opencti_api_client.query(SimpleStixObjectOrStixRelationshipStixCoreRelationshipsLinesPaginationQuery,variables={"elementId":i,"relationship_type":"stix-core-relationship","startTimeStart":"null","startTimeStop":"null","stopTimeStart":"null","stopTimeStop":"null","confidences":"null","orderBy":"created_at","orderMode":"desc","count":8,"cursor":"null"})
+results = opencti_api_client.query(results = opencti_api_client.query(SimpleStixObjectOrStixRelationshipStixCoreRelationshipsLinesPaginationQuery,variables={"elementId":str(i),"relationship_type":"stix-core-relationship","orderBy":"created_at","orderMode":"desc","count":8})
+print(results["data"]["stixCoreRelationships"]["edges"])
